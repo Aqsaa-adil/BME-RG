@@ -8,6 +8,10 @@
   --card: #f8fafc;
   --border: #e2e8f0;
 }
+.logo {
+  height: 48px;
+  width: auto;
+}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
 a{color:var(--brand);text-decoration:none}
