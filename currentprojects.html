@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home • Biomedical Engineering Research Group</title>
-  <meta name="description" content="Biomedical Engineering Research Group">
+  <title>Current Projects • Biomedical Engineering Research Group</title>
+  <meta name="description" content="Current research projects within the Biomedical Engineering Research Group">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/logo.svg">
 </head>
 <body>
+  <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html">
@@ -21,33 +22,79 @@
         <a href="mission.html">Mission & Vision</a>
         <a href="whoweare.html">Who We Are</a>
         <a href="subgroups.html">Subgroups</a>
-        <a href="currentprojects.html">Current Projects</a>
+        <a href="currentprojects.html" class="active">Current Projects</a>
         <a href="publications.html">Publications</a>
         <a href="events.html">Events</a>
         <a href="#contact">Contact</a>
-        </nav>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section>
-            <h2>Ongoing Research Initiatives</h2>
-            <p>Here you can list all the ongoing projects within the Biomedical Engineering Research Group, including project leads, collaborators, objectives, and outcomes.</p>
-            
-            <div class="project">
-                <h3>1. Smart Biomedical Sensor System</h3>
-                <p>Developing advanced biomedical sensors for physiological signal monitoring and data analysis.</p>
-            </div>
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="site-main">
 
-            <div class="project">
-                <h3>2. AI-based Bird Sound Classification</h3>
-                <p>Applying machine learning to analyze and classify bird sounds for biodiversity studies in Qatar.</p>
-            </div>
-        </section>
-    </main>
+    <section class="hero">
+      <div class="container">
+        <h1>Current Projects</h1>
+        <p class="lead">Explore our ongoing and recently completed research initiatives that bridge engineering and healthcare innovation.</p>
+      </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Biomedical Engineering Research Group, Qatar University</p>
-    </footer>
+    <section class="cards container">
+      <article class="card">
+        <h3>AI-Based Bird Sound Classification</h3>
+        <p>Developing advanced signal processing and machine learning techniques to classify bird sounds for biodiversity monitoring in Qatar.</p>
+        <ul>
+          <li><strong>Focus:</strong> Signal processing, feature extraction, 2D-CNN classification</li>
+          <li><strong>Collaborators:</strong> Ministry of Environment & Qatar University</li>
+          <li><strong>Status:</strong> Ongoing</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Smart Biomedical Sensor System</h3>
+        <p>Designing low-power biomedical sensors for continuous physiological monitoring and data analytics integration.</p>
+        <ul>
+          <li><strong>Focus:</strong> IoT, embedded systems, real-time health tracking</li>
+          <li><strong>Status:</strong> Prototype development phase</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Force Sensor Using Strain Gauge</h3>
+        <p>Creating a precision force sensor using strain-gauge instrumentation and op-amp circuitry for accurate force measurement.</p>
+        <ul>
+          <li><strong>Focus:</strong> Instrumentation, op-amp amplification, calibration</li>
+          <li><strong>Status:</strong> Completed (2024)</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Enhanced Automatic Environmental Controller System (AECS)</h3>
+        <p>Developing an embedded system that monitors and controls temperature, humidity, CO₂ levels, and light intensity for optimized indoor environments.</p>
+        <ul>
+          <li><strong>Focus:</strong> Sensors, automation, C++ embedded control</li>
+          <li><strong>Status:</strong> Ongoing</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="container" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:hyalcin@qu.edu.qa">hyalcin@qu.edu.qa</a></p>
+      <p>Address: Research Complex, Qatar University, Doha</p>
+      <p>Social: <a href="#">LinkedIn</a> · <a href="#">X</a> · <a href="#">Google Scholar</a></p>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Biomedical Engineering Research Group • All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
